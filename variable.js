@@ -18,3 +18,4 @@ var age;
 
 console.log(price);
 console.log(money);
+console.log(age);
