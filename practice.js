@@ -31,6 +31,25 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
     - Otherwise, you are obese.
 
 */
+let weight = 60;
+let height = 1.75;
+const bmi = weight / (height * height);
+// console.log("Your BMI is:", bmi.toFixed(2));
+if (bmi < 18.5) {
+    // console.log("You are underweight");
+}
+else {
+    if (bmi >= 18.5 && bmi <= 24.5) {
+        // console.log("You are normal");
+    }
+    else if (bmi >= 25 && bmi <= 29.9) {
+        // console.log("You are overweight");
+    }
+    else {
+        // console.log("You are obese");
+    }
+}
+
 
 
 
@@ -50,6 +69,22 @@ Create a simple JavaScript program that takes a student's score as input and ret
     F: 0-59
 
 ***/
+let mark = 69;
+if (mark >= 90 && mark <= 100) {
+    console.log("Grade: A");
+}
+else if (mark >= 80 && mark <= 89) {
+    console.log("Grade: B");
+}
+else if (mark >= 70 && mark <= 79) {
+    console.log("Grade: C");
+}
+else if (mark >= 60 && mark <= 69) {
+    console.log("Grade: D");
+}
+else {
+    console.log("Grade: F");
+}
 
 // Problem - 4
 /***
