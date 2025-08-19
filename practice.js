@@ -71,20 +71,24 @@ Create a simple JavaScript program that takes a student's score as input and ret
 ***/
 let mark = 69;
 if (mark >= 90 && mark <= 100) {
-    console.log("Grade: A");
+    // console.log("Grade: A");
 }
 else if (mark >= 80 && mark <= 89) {
-    console.log("Grade: B");
+    // console.log("Grade: B");
 }
 else if (mark >= 70 && mark <= 79) {
-    console.log("Grade: C");
+    // console.log("Grade: C");
 }
 else if (mark >= 60 && mark <= 69) {
-    console.log("Grade: D");
+    // console.log("Grade: D");
 }
 else {
-    console.log("Grade: F");
+    // console.log("Grade: F");
 }
+
+
+
+
 
 // Problem - 4
 /***
@@ -99,7 +103,22 @@ if you get less than 80 go to home and sleep and act sad
 Note:
 use nested if-else-if-else
 */
-
+let friendScore = 81;
+let myScore = 80;
+if (friendScore >= 80) {
+    // console.log("Go for lunch");
+}
+else {
+    if (friendScore <= 80 && friendScore >= 60) {
+        // console.log("Good Luck next time!");
+    }
+    else if (friendScore <= 60 && friendScore >= 40) {
+        // console.log("Message unseen");
+    }
+    else if (friendScore <= 40 && myScore <= 80) {
+        // console.log("Block friend");
+    }
+}
 
 // Problem - 5
 /***
