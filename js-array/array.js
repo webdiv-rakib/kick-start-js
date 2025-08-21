@@ -1,0 +1,10 @@
+// const num1 = 12;
+// const num2 = 22;
+// const num3 = 33;
+// const numbers = 123456789;
+const numbers = [11, 22, 33, 44, 55];
+const friends = ['rakib', 'raju', 'toymur'];
+const passed = [true, false, true, false];
+console.log(numbers);
+console.log(friends);
+console.log(passed);
