@@ -31,3 +31,55 @@ destination.push('Cox bazar', 'Bandorban');
 destination.pop();
 // console.log(destination);
 
+
+
+
+/**
+ *  Checking Array Membership with ‘includes’
+ * 1. Create an array of books containing different book.
+ * 2. Use the includes method to check if the array contains a javascript book.
+ * 3. Print a message to the console indicating whether the element is present in the array or not.
+ */
+const books = ['Bangla', 'English', 'Math'];
+if (books.includes('javascript')) {
+    // console.log("It present");
+}
+else {
+    // console.log('Its not present in array');
+}
+
+
+
+
+/**
+ * Checking if it's an Array
+ * 1. Create different variables, each containing either an array or a non-array value.
+ * 2. Now use isArray to check if each variable is an array.
+ * 3. Print a message to the console indicating whether each variable is an array or not.
+ */
+const names = ['abu', 'nayim', 'mohammad'];
+const numbers = [1, 3, 5, 7, 9];
+const num1 = 12;
+const name1 = 'rakib';
+if (Array.isArray(num1)) {
+    // console.log('This one is array');
+}
+else {
+    // console.log('This one is not an array');
+}
+
+
+
+
+/**
+ * Combining Arrays
+ * 1. Create two arrays of your choice.
+ * 2. Use the concat method to combine the two arrays into a new array.
+ * 3. Print both the original arrays and the combined array using console.log().
+ */
+const array1 = ['Rakib', 'Raju', 'Toymur'];
+const array2 = [27, 29, 31];
+const bothArray = array1.concat(array2);
+console.log(array1, array2);
+console.log(bothArray);
+
