@@ -6,7 +6,7 @@
 
 /*programming hero*/
 for (let i = 1; i <= 60; i++) {
-    // console.log("I will invest at least 6 hrs every single day for next 60 days");
+    console.log("I will invest at least 6 hrs every single day for next 60 days");
 }
 
 
@@ -33,14 +33,14 @@ Find all the even numbers from 78 to 98.
 for (let i = 61; i <= 100; i++) {
     // console.log(i);
     if (i % 2 !== 0) {
-        // console.log(i);
+        console.log(i);
     }
 }
 
 for (let i = 78; i <= 98; i++) {
     // console.log(i);
     if (i % 2 === 0) {
-        // console.log(i);
+        console.log(i);
     }
 }
 
@@ -65,22 +65,22 @@ Display sum of all the even numbers from 51 to 85.
 /*programming hero*/
 let sum = 0;
 for (let i = 91; i <= 129; i++) {
-    // console.log(i);
+    console.log(i);
     if (i % 2 !== 0) {
         sum = sum + i;
-        // console.log(sum);
+        console.log(sum);
     }
 }
-// console.log("Sum of all the odd number:",sum);
+console.log("Sum of all the odd number:",sum);
 
 let sum1 = 0;
 for (let i = 51; i <= 85; i++) {
-    // console.log(i);
+    console.log(i);
     if (i % 2 === 0) {
         sum1 = sum1 + i;
     }
 }
-// console.log("Sum of all the even numbers:", sum1);
+console.log("Sum of all the even numbers:", sum1);
 
 
 
@@ -94,9 +94,9 @@ Generate a multiplication table for number 9
 
 /*programming hero*/
 for (let i = 1; i <= 10; i++) {
-    // console.log(i);
+    console.log(i);
     multi = 9 * i;
-    // console.log(multi);
+    console.log(multi);
 }
 
 
