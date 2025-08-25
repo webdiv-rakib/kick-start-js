@@ -65,19 +65,36 @@ Display sum of all the even numbers from 51 to 85.
 /*programming hero*/
 let sum = 0;
 for (let i = 91; i <= 129; i++) {
-    console.log(i);
+    // console.log(i);
     if (i % 2 !== 0) {
         sum = sum + i;
-        console.log(sum);
+        // console.log(sum);
     }
 }
 // console.log("Sum of all the odd number:",sum);
 
 let sum1 = 0;
 for (let i = 51; i <= 85; i++) {
-    console.log(i);
+    // console.log(i);
     if (i % 2 === 0) {
         sum1 = sum1 + i;
     }
 }
-console.log("Sum of all the even numbers:", sum1);
+// console.log("Sum of all the even numbers:", sum1);
+
+
+
+
+/***
+
+Generate a multiplication table for number 9
+
+ */
+
+
+/*programming hero*/
+for (let i = 1; i <= 10; i++) {
+    // console.log(i);
+    multi = 9 * i;
+    console.log(multi);
+}
