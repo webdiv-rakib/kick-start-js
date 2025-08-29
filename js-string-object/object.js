@@ -21,3 +21,15 @@ const subject = {
         marks: 100
     }
 }
+
+const person = {
+    name: 'Abu Nayim Mohammad Rakib',
+    id: 192 - 15 - 2868,
+    department: 'CSE',
+    section: '60_F',
+    location: {
+        currentAddress: 'YKSH-1',
+        parmanentAddress: 'Tangail',
+
+    }
+}
