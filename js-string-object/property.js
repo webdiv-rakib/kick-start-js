@@ -14,6 +14,16 @@ const income = person.salary;
 
 // bracket notation
 // third bracket diye access kora
-console.log(person['married']);
+// console.log(person['married']);
 const boyos = person['age'];
-console.log(boyos);
+// console.log(boyos);
+
+const myInformation = {
+    name: 'Abu Nayim Mohammad Rakib',
+    age: 27,
+    profession: 'Student',
+    address: 'Tangail',
+    salary: 0,
+    married: false,
+}
+console.log(myInformation);
