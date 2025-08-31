@@ -27,3 +27,10 @@ const myInformation = {
     married: false,
 }
 console.log(myInformation);
+
+const trCafe = {
+    name: 'TR-Cafe',
+    location: 'YKSG-1',
+    owner: 'Md Toymur Ahmed Towfiq',
+    
+}
