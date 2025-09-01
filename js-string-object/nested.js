@@ -12,11 +12,15 @@ const college = {
     }
 }
 
-console.log(college.unique.result.gpa);
-console.log(college.events[0]);
+// console.log(college.unique.result.gpa);
+// console.log(college.events[0])
 college.events[0] = 'Boishakhi mela';
-console.log(college.events);
+// console.log(college.events);
 
 // to delete property and value of an object
 delete college.class;
-console.log(college);
+// console.log(college);
+
+for (let i = 0; i <= 100; i++) {
+    console.log('I love you', i);
+}
