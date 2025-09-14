@@ -3,11 +3,24 @@ function inchToFeet(inch) {
     const feet = inch / 12;
     return feet;
 }
-const result = inchToFeet(160);
-console.log(result)
+// const result = inchToFeet(160);
+// console.log(result)
 
-//Conver Feet to Inch
+//Convert Feet to Inch
+// ignore this solution
 function inchToFeet2(inch) {
-    console.log(inch);
+    const feetFraction = inch / 12;
+    const feetNumber = parseInt(feetFraction);
+    const inchRemaining = inch % 12;
+    const result = feetNumber + 'ft' + inchRemaining+'inch.';
+    return result;
 }
-inchToFeet2(100);
+const rakibHeight = inchToFeet2(68);
+// console.log(rakibHeight);
+
+// =================================
+// Convert Miles to Kilometer
+function milesToKilometer(miles){
+    console.log(miles);
+}
+milesToKilometer(5);
