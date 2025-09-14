@@ -24,3 +24,4 @@ function milesToKilometer(miles){
     console.log(miles);
 }
 milesToKilometer(5);
+// going to update my laptop to win11
