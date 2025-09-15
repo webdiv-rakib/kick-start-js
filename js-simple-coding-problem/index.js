@@ -12,7 +12,7 @@ function inchToFeet2(inch) {
     const feetFraction = inch / 12;
     const feetNumber = parseInt(feetFraction);
     const inchRemaining = inch % 12;
-    const result = feetNumber + 'ft' + inchRemaining+'inch.';
+    const result = feetNumber + 'ft' + inchRemaining + 'inch.';
     return result;
 }
 const rakibHeight = inchToFeet2(68);
@@ -20,8 +20,19 @@ const rakibHeight = inchToFeet2(68);
 
 // =================================
 // Convert Miles to Kilometer
-function milesToKilometer(miles){
-    console.log(miles);
+function milesToKilometer(miles) {
+    const kilo = miles * 1.60934;
+    return kilo;
 }
-milesToKilometer(5);
-// going to update my laptop to win11
+const kilometer = milesToKilometer(5);
+// console.log(kilometer);
+
+// ================================
+// convert kilometer to miles
+function kilometerToMiles(kilometer) {
+    console.log(kilometer);
+    const mile = kilometer / 1.60934;
+    return mile;
+}
+const mile = kilometerToMiles(14);
+console.log(mile);
