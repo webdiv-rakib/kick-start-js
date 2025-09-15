@@ -30,9 +30,9 @@ const kilometer = milesToKilometer(5);
 // ================================
 // convert kilometer to miles
 function kilometerToMiles(kilometer) {
-    console.log(kilometer);
+    // console.log(kilometer);
     const mile = kilometer / 1.60934;
     return mile;
 }
 const mile = kilometerToMiles(14);
-console.log(mile);
+// console.log(mile);
