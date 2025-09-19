@@ -1,0 +1,1 @@
+console.log('JavaScript simple coding problem 2');
