@@ -55,4 +55,29 @@ function notExit(array, search) {
 const search = 25;
 const array = [5, 6, 11, 12, 15, 98, 5];
 const outPut = notExit(array, search);
-console.log("Output:", outPut);
+// console.log("Output:", outPut);
+
+
+
+
+
+// 3. Write a function to count the number of vowels in a string.
+function countVowels(string) {
+    // console.log(string);
+    // console.log(vowels);
+    let count = 0;
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    for (const str of string) {
+        for (const vowel of vowels) {
+            if (str === vowel) {
+                count++;
+            }
+        }
+    }
+    return count;
+
+}
+const string = 'abu nayim mohammad rakib';
+const sentence = countVowels(string);
+console.log("Total number of vowels:", sentence);
+
