@@ -99,5 +99,11 @@ function longestWord(sentence1) {
 }
 const sentence1 = 'A passionate web developer from Bangladesh';
 const find1 = longestWord(sentence1);
-console.log('Longest word in sentence is:', find1);
+// console.log('Longest word in sentence is:', find1);
 
+
+
+
+// 5. Generate a random number between 10 to 20.
+const randomNumber = Math.floor(Math.random() * (20 - 10 + 1)) + 10;
+console.log(randomNumber);
