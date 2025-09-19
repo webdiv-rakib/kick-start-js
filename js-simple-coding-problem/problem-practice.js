@@ -79,5 +79,25 @@ function countVowels(string) {
 }
 const string = 'abu nayim mohammad rakib';
 const sentence = countVowels(string);
-console.log("Total number of vowels:", sentence);
+// console.log("Total number of vowels:", sentence);
+
+
+
+
+// 4. Write a function to find the longest word in a given string.
+function longestWord(sentence1) {
+    // console.log(sentence1);
+    const words = sentence1.split(" ");
+    // console.log(words);
+    let longest = "";
+    for (const word of words) {
+        if (word.length > longest.length) {
+            longest = word;
+        }
+    }
+    return longest;
+}
+const sentence1 = 'A passionate web developer from Bangladesh';
+const find1 = longestWord(sentence1);
+console.log('Longest word in sentence is:', find1);
 
