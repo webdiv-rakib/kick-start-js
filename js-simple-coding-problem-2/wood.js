@@ -27,4 +27,5 @@ function shoppingCalculator(shirtQuantity, pantQuantity, shoeQuantity) {
     return totalPrice;
 }
 const cloth = shoppingCalculator(2, 2, 2);
-console.log('Grand Total:', cloth);
+// console.log('Grand Total:', cloth);
+// ========================
