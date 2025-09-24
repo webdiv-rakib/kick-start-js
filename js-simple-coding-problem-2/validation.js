@@ -13,7 +13,7 @@ function multiply(num1, num2) {
 const result = multiply(5, 'seven');
 // console.log(result);
 
-// -----Valication check for String-----
+// -----Validation check for String-----
 function fullName(firstName, secondName) {
     // console.log(firstName, secondName);
     if (typeof firstName !== 'string' || typeof secondName !== 'string') {
