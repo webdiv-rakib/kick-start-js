@@ -58,16 +58,42 @@ const phones = [
     { model: "PhoneF", brand: "HTC", price: 48000 },
 ];
 function findAveragePhonePrice(products) {
-    console.log(products);
+    // console.log(products);
     let sum = 0;
     const objectLength = products.length;
     for (const product of products) {
         sum = sum + product.price;
         average = sum / objectLength;
     }
-    console.log('Sum of total products:', sum);
-    console.log('Total items:', objectLength);
+    // console.log('Sum of total products:', sum);
+    // console.log('Total items:', objectLength);
     return Math.floor(average);
 }
 const price = findAveragePhonePrice(phones);
-console.log('Average price of phone:', price);
+// console.log('Average price of phone:', price);
+
+
+
+
+// 5. For each employee their current salary is calculated by multiplying yearly increment with experience then adding the result to the starting salary. Now calculate is the total salary has to be provided by the company in a month.
+const employees = [
+    { name: "shahin", experience: 5, starting: 20000, increment: 5000 },
+    { name: "shihab", experience: 3, starting: 15000, increment: 7000 },
+    { name: "shikot", experience: 9, starting: 30000, increment: 1000 },
+    { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
+];
+function yearlyIncrement(employees) {
+    const starting1 = 200000;
+    const starting2 = 15000;
+    const starting3 = 30000;
+    const starting4 = 29000;
+    console.log(employees);
+    for (const employee of employees) {
+        console.log(employee);
+        if (employee.experience > 5) {
+
+        }
+    }
+}
+const salary = yearlyIncrement(employees);
+console.log("The total salary has to be provided:", salary);
