@@ -30,4 +30,17 @@ function smallestName(names) {
     return small;
 }
 const name = smallestName(friends);
-console.log('Smallest name is:', name);
+// console.log('Smallest name is:', name);
+
+
+
+
+// 3. Your task is to calculate the total budget required to buy electronics:
+function calculateElectronicsBudget(laptop, tablet, mobile) {
+    console.log(laptop, tablet, mobile);
+    const sum = laptop + tablet + mobile;
+    return sum;
+    // return laptop + tablet + mobile;
+}
+const total = calculateElectronicsBudget(35000, 15000, 20000);
+console.log('Total Money Required:', total);
